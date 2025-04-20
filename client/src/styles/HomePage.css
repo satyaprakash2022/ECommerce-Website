@@ -79,3 +79,29 @@
     font-weight: bold;
     font-size: 20px !important;
   }
+  /* .text-center:first-child{
+    background-color: aquamarine;
+  } */
+  #f1{
+    background-color: rgb(121, 107, 244);
+    color: chartreuse;
+  }
+  #f2{
+    background-color: rgb(121, 107, 244);
+    color: chartreuse;
+  }
+  .flex-column{
+    background-color: rgb(253, 243, 228);
+  }
+  #f3{
+    margin-top: 40px;
+    /* padding-top: 100px; */
+    color: red;
+    background-color: bisque;
+  }
+  /* .btn{
+    background-color: aquamarine;
+  } */
+  h1{
+    background-color: rgb(182, 233, 233);
+  }

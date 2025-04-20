@@ -16,7 +16,7 @@ const Register = () => {
 
   // form function
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    e.preventDefault();    // to prevent default reload behavior to make single page application
     try {
       const res = await axios.post("/api/v1/auth/register", {
         name,

@@ -25,7 +25,7 @@ router.post("/login", loginController); // loginController created in controller
 router.post("/forget-password", forgetPasswordController); // forgetPasswordController created in controller folder(
 
 // test routes
-router.get("/test", requireSignIn, isAdmin, testController); // loginController created in controller folder(
+router.get("/test", requireSignIn, isAdmin, testController); 
 // we can add any no of middleware between them
 
 // protected route auth

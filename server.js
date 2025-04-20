@@ -1,3 +1,5 @@
+// npm run dev
+
 const express = require('express');
 const colors = require('colors');
 const dotenv = require('dotenv');
@@ -23,7 +25,7 @@ app.use(morgan('dev'));
 app.use(express.json());  // we can send and recieve JSON data
 
 // routes
-app.use('/api/v1/auth' , authRoutes);
+app.use('/api/v1/auth' , authRoutes);    // routes of authRoutes will called preceding this routes
 app.use('/api/v1/category' , categoryRoutes);
 app.use('/api/v1/product' , productsRoutes);
 

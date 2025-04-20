@@ -82,7 +82,7 @@ const loginController = async (req,res) =>{
             });
         }
         // email is checked now check password (check if it matches with database or not)
-        const match = await comparePassword(password,user.password);
+        const match = await comparePassword(password,user.password);  // check password here password is from local and user.password from database
         if(!match){
             return res.status(200).send({
                 success: false,
